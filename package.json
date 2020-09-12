@@ -1,0 +1,24 @@
+{
+  "name": "kirjasto-bot",
+  "version": "1.0.0",
+  "description": "Telegram robotti kirjastojen kanssa asioinnin helpottamiseen.",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon .",
+    "start": "node ."
+  },
+  "keywords": [
+    "Kirjasto",
+    "Bot",
+    "Helmet"
+  ],
+  "author": "Kaikkitietokoneista",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "html-to-text": "^5.1.1",
+    "moment": "^2.27.0",
+    "node-telegram-bot-api": "^0.50.0",
+    "request": "^2.88.2"
+  }
+}
