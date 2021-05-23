@@ -17,7 +17,8 @@ npm start
 ## Konfiguroinnista
 
 - BOTPIC: https://www.kirjastot.fi/sites/default/files/matbank/yleisten-kirjastojen-tunnus.png
-- COMMANDS: ```
+- COMMANDS: 
+    ```
     apua - näyttää ohjeet
     sijainti - kirjaston sijainti kartalla
     aukioloajat - halutun kirjaston aukiolo
