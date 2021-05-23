@@ -8,6 +8,15 @@ Kirjasto bot auttaa sinua löytämään sopivan kirjaston läheltä. Datan botti
 
 ## Asennuksesta
 
+### Docker
+
+Dockerilla saat ohjelman käyntiin helposti komennolla:
+```
+docker run -e TELEGRAM_BOT_TOKEN="GET_THIS_FROM_BOTFATHER" --name="kirjasto-bot" kirjasto-bot
+```
+
+### Normaali
+
 ```
 npm install
 echo "TELEGRAM_BOT_TOKEN=xxxxxxxxxxxxx:xxxxxxxxxxxxxxxxxxxxxx" > .env
@@ -25,3 +34,10 @@ npm start
     palvelut - näe haluamasi kirjaston palvelut
     ```
 - TOKEN: Luo .env-tiedosto, joka sisältää `TELEGRAM_BOT_TOKEN=xxxxxxxxxxxxx:xxxxxxxxxxxxxxxxxxxxxx`
+
+## Kehittämisestä
+
+Voit rakentaa Dockerin avulla kuvan ohjelmasta myös omalle tietokoneellesi. Se tapahtuu komennolla:
+```
+docker build -t Kirjasto-bot .
+```
