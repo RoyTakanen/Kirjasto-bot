@@ -12,7 +12,7 @@ Kirjasto bot auttaa sinua löytämään sopivan kirjaston läheltä. Datan botti
 
 Dockerilla saat ohjelman käyntiin helposti komennolla:
 ```
-docker run -e TELEGRAM_BOT_TOKEN="GET_THIS_FROM_BOTFATHER" --name="kirjasto-bot" kirjasto-bot
+docker run -e TELEGRAM_BOT_TOKEN="GET_THIS_FROM_BOTFATHER" --name="kirjasto-bot" kaikkitietokoneista/kirjasto-bot
 ```
 
 ### Normaali
